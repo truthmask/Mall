@@ -1,0 +1,55 @@
+html{
+  font-size: 15px;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #461069;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+td p{
+  color: #fff;
+  font-size: 24px;
+  text-shadow: 0px 10px 15px #f532f5;
+}
+
+td .search{
+  width: 500px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  margin: 0 15px;
+  box-shadow: -5px 10px 15px #f532f5;
+}
+
+td .btn{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  background: #fff;
+  cursor: pointer;
+  box-shadow: 0px 10px 15px #f532f5;
+  transition: .4s;
+}
+
+td .btn:hover{
+  background: #f532f5;
+  color: #fff;
+  border: 1px solid #fff;
+}
